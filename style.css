@@ -257,7 +257,12 @@ h5 {
 }
 
 .pro {
+    padding-left: 60px;
     background-color: #101010;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  
 }
 
 .pro img {
@@ -314,4 +319,9 @@ footer p:nth-child(2) {
     color: #f9004d;
     bottom: 35px;
     font-size: 14px;
+}
+.up {
+    color: #f9004d;
+    display: flex;
+    align-self: flex-end ;
 }
